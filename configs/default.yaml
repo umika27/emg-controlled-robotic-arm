@@ -1,0 +1,37 @@
+missing_label: unmarked
+seed: 42
+raw_dir: data/raw
+processed_dir: data/processed
+report_dir: reports
+labels: [1, 2, 3, 4]
+subjects: null
+sampling:
+  target_hz: 200
+  max_gap_ms: 50
+filter:
+  mode: causal
+  kind: bandpass
+  low_hz: 5
+  high_hz: 40
+  order: 4
+  notch_hz: null
+window:
+  seconds: 0.2
+  overlap: 0.5
+features:
+  noise_threshold: 0.00002
+  spectral: false
+split:
+  unit: subject
+  validation: 0.2
+  test: 0.2
+training:
+  epochs: 15
+  batch_size: 256
+  learning_rate: 0.001
+  patience: 4
+  threads: 4
+  trees: 150
+streaming:
+  confidence: 0.6
+  stable_windows: 3

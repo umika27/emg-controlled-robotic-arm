@@ -1,0 +1,8 @@
+........................                                                 [100%]
+=============================== warnings summary ===============================
+tests/test_pipeline.py::test_filter_and_chunk_invariance
+  /Users/umikasood/emg-processing/src/emg_pipeline/filtering.py:57: UserWarning: Short recording: reduced zero-phase padding; inspect boundary transients.
+    warnings.warn('Short recording: reduced zero-phase padding; inspect boundary transients.')
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+24 passed, 1 warning in 5.25s

@@ -1,0 +1,17 @@
+{
+  "python": "3.13.7",
+  "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+  "packages": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2",
+    "scikit-learn": "1.9.1",
+    "torch": "2.14.1",
+    "pytest": "9.1.1",
+    "PyYAML": "6.0.3"
+  },
+  "archives": {
+    "emg+data+for+gestures.zip": "e82247b6478e5a1c5ad621c1f2cc1bb878547c51f01f4e6226abb2a4819ce4ee"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "subjects": 36,
+  "recordings": 72,
+  "raw_rows": 4237908,
+  "empirical_row_hz_range": [
+    821.0987925017757,
+    972.8629790142443
+  ],
+  "nominal_rate_hz": null,
+  "nominal_rate_note": "Dataset README gives no nominal rate; 200 Hz is an explicit analysis grid, not an inferred acquisition rate.",
+  "source_readme": "data/raw/EMG_data_for_gestures-master/README.txt"
+}

@@ -1,0 +1,96 @@
+{
+  "accuracy": 0.4092664092664093,
+  "balanced_accuracy": 0.3970588235294118,
+  "macro_f1": 0.26584792265482105,
+  "confusion_matrix": [
+    [
+      0,
+      0,
+      0,
+      62
+    ],
+    [
+      0,
+      0,
+      55,
+      8
+    ],
+    [
+      0,
+      0,
+      66,
+      0
+    ],
+    [
+      0,
+      0,
+      28,
+      40
+    ]
+  ],
+  "labels": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "per_class": {
+    "1": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 62.0
+    },
+    "2": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 63.0
+    },
+    "3": {
+      "precision": 0.4429530201342282,
+      "recall": 1.0,
+      "f1-score": 0.6139534883720931,
+      "support": 66.0
+    },
+    "4": {
+      "precision": 0.36363636363636365,
+      "recall": 0.5882352941176471,
+      "f1-score": 0.449438202247191,
+      "support": 68.0
+    },
+    "accuracy": 0.4092664092664093,
+    "macro avg": {
+      "precision": 0.20164734594264797,
+      "recall": 0.3970588235294118,
+      "f1-score": 0.26584792265482105,
+      "support": 259.0
+    },
+    "weighted avg": {
+      "precision": 0.2083481546568795,
+      "recall": 0.4092664092664093,
+      "f1-score": 0.2744506872021897,
+      "support": 259.0
+    }
+  },
+  "inference_seconds": 0.012491708010202274,
+  "windows": 259,
+  "inference_ms_per_window": 0.048230532857923836,
+  "window_latency_ms": 200.0,
+  "preprocessing_seconds": 0.6530549169983715,
+  "split_groups": {
+    "test": [
+      "04"
+    ],
+    "validation": [
+      "03"
+    ],
+    "train": [
+      "06",
+      "05",
+      "02",
+      "01"
+    ]
+  },
+  "timing_scope": "CPU batch prediction including feature extraction or normalization; no hardware I/O"
+}
