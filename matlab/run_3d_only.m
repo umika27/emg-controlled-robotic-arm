@@ -1,0 +1,1 @@
+root=fileparts(mfilename('fullpath'));addpath(genpath(fullfile(root,'src')));cfg=emg_config(root,'fast');run_control_demo(cfg);animate_arm_3d(cfg);
