@@ -1,0 +1,9 @@
+dataset/EMG_data_for_gestures-master/
+results/*
+!results/.gitkeep
+*.asv
+*.autosave
+*.mat
+*.slxc
+*.mex*
+.DS_Store
